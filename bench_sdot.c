@@ -5,7 +5,7 @@ float sdot(int length, float *X, float *Y);
 
 
 int main(){
-printf("This is for a length of 3\n");
+printf("Enter 3 numbers\n");
 int length = 4;
 float *X = (float *)malloc(length *sizeof(float));
 float *Y = (float *)malloc(length *sizeof(float));
